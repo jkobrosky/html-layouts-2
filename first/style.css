@@ -48,6 +48,7 @@ html, body {
 	width: 92%;
 	font-family: Helvetica, san-serif;
 	line-height: 1.75em;
+	overflow: auto;
 	align-self: center;
 }
 
