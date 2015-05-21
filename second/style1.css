@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+body {
+	max-width: 800px;
+	background: #dcdcdc;
+	padding: 3%
+}
+
+.top-container {
+	height: 30%;
+	width: 90%;
+	margin: 4% 0;
+	background: #fff;
+}
+
+.text-holder {
+	width: 90%;
+	margin: auto;
+	padding: 4% 0;
+	overflow: auto;
+}
+
+.engaging-text {
+	color: #000;
+	font-family: Helvetica, sans-serif;
+	line-height: 1.5em;
+}
+
+.btn-holder {
+	height: 25%;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.left-btn {
+	height: 50px;
+	width: 150px;
+	background: #dc143c;
+	display: table;
+}
+
+.right-btn {
+	height: 50px;
+	width: 150px;
+	margin: 0 4%;
+	background: #6495ed;
+	display: table;
+}
+
+.click {
+	color: #fff;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.25em;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.bot-container {
+	height: 55%;
+	width: 90%;
+	background: #fff;
+}
+
+.image-holder {
+	height: 60%;
+	width: 90%;
+	margin: auto;
+	background: #6e7b8b;
+	background: url('file:///Users/josephkobrosky/Pictures/ProvoMtn1.jpg');
+	background-size: cover;
+	border-top: 30px solid #fff;
+}
+
+.bot-text {
+	height: 30%;
+}
+
